@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    position: relative;
+}
+
+.left {
+    flex: 0.7;
+    padding: 20px;
+    text-align: center;
+    /*background-color: rgba(255, 255, 255, 0.2);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+#imgFundo {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#basico {
+    background-color: rgb(68, 68, 68);
+    height: 600px;
+    width: 500px;
+    display: flex;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+
+#fotoPerfil {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#nomePerfil {
+    position: absolute;
+    margin-top: 330px;
+    padding-left: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#informacoesContato {
+    position: absolute;
+    text-align: left;
+    padding-left: 60px;
+    margin-top: 390px;
+    line-height: 2.3;
+}
+
+#divInformacoes {
+    display: grid;
+    grid-template-columns: 0.1fr 2fr;
+    column-width: auto;
+    gap: 5px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    object-fit: contain;
+    margin-top: 430px;
+    padding-left: 20px;
+}
+
+.iconInformacoes {
+    width: 30px;
+    height: 30px;
+}
+
+.pInformacoes {
+    margin-top: 5px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#sobre {
+    position: absolute;
+    margin-top: 385px;
+    padding-left: 20px;
+}
+
+#iconLinks {
+    position: absolute;
+    width: 500px;
+    height: auto;
+    margin-top: 540px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
+
+.iconRedesSociais {
+    height: 40px;
+    width: 40px;
+    margin-inline: 5px;
+    object-fit: contain;
+}
+
+#h2Apresentacao {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+#iconsHabilidades {
+    margin-bottom: 50px;
+}
+
+.iconHabilidade {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
+    margin-inline: 7px;
+}
+
+#experiencia {
+    justify-content: left;
+}
+
+#pExperiencia {
+    padding-top: 40px;
+    text-align: left;
+    color: rgb(51, 51, 51);
+}
+
+#contateMe {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 20px;
+    padding-inline: 90px;
+    border: none;
+    border-radius: 0px;
+    color: white;
+    background-color: rgb(68, 68, 68);
+}
