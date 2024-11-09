@@ -127,6 +127,14 @@ p {
     object-fit: contain;
 }
 
+.iconRedesSociais:hover {
+    transform: scale(1.1);
+}
+
+.iconRedesSociais:active {
+    transform: scale(0.95);
+}
+
 #h2Apresentacao {
     margin-top: 50px;
     margin-bottom: 40px;
@@ -163,4 +171,9 @@ p {
     border-radius: 0px;
     color: white;
     background-color: rgb(68, 68, 68);
+}
+
+
+#contateMe:active {
+    transform: scale(0.95);
 }
